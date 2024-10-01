@@ -3,6 +3,8 @@ import ConditionalRenderingClass from "./components/ConditionalRenderingClass";
 import ConditionalRenderingFunctional from "./components/ConditionalRenderingFunctional";
 import EventsClass from "./components/EventsClass";
 import EventsFunctional from "./components/EventsFunctional";
+import MethodsAsPropsChild from "./components/MethodsAsPropsChild";
+import MethodsAsPropsParent from "./components/MethodsAsPropsParent";
 import NestingComponents from "./components/NestingComponents";
 
 function App() {
@@ -11,7 +13,9 @@ function App() {
     {/* <EventsClass /> */}
     {/* <ConditionalRenderingClass /> */}
     {/* <ConditionalRenderingFunctional connected={true} /> */}
-    <NestingComponents />
+    {/* <NestingComponents /> */}
+    {/* <MethodsAsPropsChild /> */}
+    <MethodsAsPropsParent />
   </div>;
 }
 
